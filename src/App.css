@@ -57,3 +57,27 @@ nav {
 .details-container>p {
     font-size: 1.4rem;
 }
+
+@media screen and (max-width: 992px) {
+    .home-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .home-container {
+        grid-template-columns: 1fr;
+    }
+}
