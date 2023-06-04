@@ -7,7 +7,7 @@ const DetailsPage = () => {
   if(!post) return <h1>Loading...</h1>
   
   return (
-    <div>
+    <div className='details-container'>
       <h2>Details Page For Post With ID {post.id}</h2>
       <img src={`https://picsum.photos/200?random=${post.id}`} alt={post.title} />
       <p>User ID: {post.userId}</p>

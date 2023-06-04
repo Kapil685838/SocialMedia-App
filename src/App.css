@@ -1,0 +1,59 @@
+nav {
+    padding: .7rem 1.5rem;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+/* Home Page styling starts */
+.home-container {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.post {
+    border: 1px solid #fff;
+    padding: .2rem .2rem .5rem;
+    border-radius: 0.5rem;
+}
+.post>img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.post>p,
+.post>h3 {
+    padding: 0 .5rem;
+    opacity: 0.5;
+}
+.post>p {
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+}
+.post>h3 {
+    font-size: 1.4rem;
+    margin: .5rem 0 .7rem;
+}
+
+/* Details Page styling starts */
+.details-container {
+    padding: 0 2rem;
+}
+.details-container>h2 {
+    font-size: 1.8rem;
+}
+.details-container>img {
+    width: 200px;
+    margin: 1rem 0;
+    border-radius: 0.7rem;
+}
+.details-container>h3 {
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+}
+.details-container>p {
+    font-size: 1.4rem;
+}
